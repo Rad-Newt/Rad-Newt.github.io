@@ -75,6 +75,11 @@ html,body{
 }
 
 
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
 .main-wrapper {
     height: 100%;
     display: flex;
@@ -92,8 +97,8 @@ a {
 .header{
     border-bottom: 1px solid #E2E8F0;
     width: 100vw;
-    /*height: 5vh;*/
-    font-family: 'Roboto', sans-serif;
+    height: 5vh;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
@@ -155,11 +160,11 @@ a {
     background-size: cover;
     background-position: center;
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    /*position: absolute;*/
+    position: absolute;
     flex-direction: column;
 }
 
@@ -308,7 +313,7 @@ a {
 
 
 /*my stuff*/
-@media only screen and (max-width: 1272px) {
+@media only screen and (max-width: 768px) {
     .nav-menu {
         position: fixed;
         left: 0%;
