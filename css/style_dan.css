@@ -162,7 +162,6 @@ a {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    position: absolute;
     flex-direction: column;
 }
 
@@ -207,7 +206,6 @@ a {
     margin: 0 0.5rem;
     padding: 0.75rem;
     font-size: 1.75rem;
-    /*background-color: white;*/
     border-radius: 50%;
     width: 25px;
     height: 25px;
