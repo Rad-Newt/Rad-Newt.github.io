@@ -75,11 +75,6 @@ html,body{
 }
 
 
-html {
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
-}
-
 .main-wrapper {
     height: 100%;
     display: flex;
@@ -98,7 +93,7 @@ a {
     border-bottom: 1px solid #E2E8F0;
     width: 100vw;
     /*height: 5vh;*/
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
@@ -313,7 +308,7 @@ a {
 
 
 /*my stuff*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1272px) {
     .nav-menu {
         position: fixed;
         left: 0%;
