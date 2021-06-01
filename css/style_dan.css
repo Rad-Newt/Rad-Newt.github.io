@@ -3,11 +3,10 @@ html,body{
     overflow: hidden;
     font-size: 10px;
     font-family: 'Raleway', sans-serif;
-}
-
-body{
+    height: 100%;
     margin: 0;
 }
+
 
 /*Helper Class Style*/
 
@@ -75,9 +74,16 @@ body{
     box-sizing: border-box;
 }
 
+
 html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
+}
+
+.main-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 li {
@@ -154,17 +160,18 @@ a {
     background-size: cover;
     background-position: center;
     width: 100vw;
-    /*height: 95vh;*/
+    height: 100vh;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    position: absolute;
+    /*position: absolute;*/
+    flex-direction: column;
 }
 
 #canvas {
     display: flex;
     width: 100%;
-    height: fit-content;
+    height: 100%;
     margin: 0 auto;
   }
 
