@@ -309,7 +309,7 @@ a {
 
 
 /*my stuff*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     .nav-menu {
         position: fixed;
         left: 0%;
