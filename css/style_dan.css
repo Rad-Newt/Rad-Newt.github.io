@@ -313,13 +313,14 @@ a {
     .nav-menu {
         position: fixed;
         left: 0%;
-        top: 5rem;
+        top: 5vh;
         flex-direction: column;
         background-color: #fff;
         width: 100%;
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
+        display: none;
     }
 
 
