@@ -79,6 +79,13 @@ body{
     align-items: flex-end;
 }
 
+#canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
 .const-msg{
     padding: 3rem;
     text-align: right;
