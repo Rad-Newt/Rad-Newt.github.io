@@ -114,9 +114,9 @@ a {
 .bar {
     display: block;
     width: 6vw;
-    height: 1vh;
+    height: 0.75vh;
     align-items: center;
-    margin: 5px auto;
+    margin: 0.5vh auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #ffffff;
