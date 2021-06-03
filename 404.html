@@ -9,13 +9,36 @@
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
     <script src="https://kit.fontawesome.com/fc900c161e.js" crossorigin="anonymous"></script>
 
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/style_dan.css">
 
   
 </head>
 
 <body>
   <div class="main-wrapper">
+
+    <header class="header" id="header">
+        <nav class="navbar">
+            <a href="https://radnewt.com" class="nav-logo">Rad Newt</a>
+            <ul class="nav-menu" id="menu">
+                <li class="nav-item">
+                    <a href="https://radnewt.com/WIP" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://radnewt.com/WIP" class="nav-link">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://radnewt.com/WIP" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+</header>
+
     <div class="const-msg-container">
         <canvas id="canvas">
         </canvas>
@@ -26,13 +49,13 @@
             </div>
             <div class="text">
                 <div class="under-text text-right font-size-xl color-primary bg-color-white padding-h-2x padding-v-1x text-uppercase">404</div>
-                <div class="const-text text-uppercase font-size-xl font-w-10 color-white">Page not found</div>
+                <div class="const-text text-uppercase font-size-xl font-w-10 color-white">Page Not Found</div>
             </div>
             <div class="socials">
                 <ul class="links">
                     <li><a href="https://github.com/Rad-Newt"><i class="fa fa-github-alt"></i></a></li>
                     <li><a href="mailto:dan@radnewt.com"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>
-                    <!--<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>-->
+                    <li><a href="https://twitter.com/Rad_Newt"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                     <li><a href="https://discord.gg/P8UY4cs6Eg" target="_blank"><i class="fab fa-discord"></i></a></li>
                     <!--<li><a href="#!"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>-->
                 </ul>
@@ -42,5 +65,6 @@
 </div>
   
 <script src="js/index.js"></script>
+<script src="js/menu.js"></script>
 </body>
 </html>
