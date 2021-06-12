@@ -76,6 +76,10 @@ body{
     text-align: Center;
 }
 
+.text-left{
+    text-align: left;
+}
+
 /* My stuff */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');*/
