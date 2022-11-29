@@ -188,8 +188,14 @@ a {
   }
 
 .const-msg{
-    padding: 3rem;
+    /*padding: 3rem;*/
     position: absolute;
+    height: 95vh;
+    overflow: auto;
+}
+.inner{
+    padding: 3rem;
+    padding-bottom: 6rem;
 }
 
 .const-msg .const-text{
@@ -202,6 +208,10 @@ a {
 
 .text-uppercase{
     text-transform: uppercase;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 
